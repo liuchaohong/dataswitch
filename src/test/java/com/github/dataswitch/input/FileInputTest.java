@@ -9,7 +9,6 @@ import org.junit.Test;
 import org.springframework.util.ResourceUtils;
 
 import com.github.dataswitch.TestUtil;
-import com.github.dataswitch.input.FileInput;
 import com.github.dataswitch.serializer.TxtDeserializer;
 
 public class FileInputTest {

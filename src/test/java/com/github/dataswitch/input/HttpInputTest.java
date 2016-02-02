@@ -5,7 +5,6 @@ import java.io.IOException;
 import org.junit.Test;
 
 import com.github.dataswitch.TestUtil;
-import com.github.dataswitch.input.HttpInput;
 import com.github.dataswitch.serializer.TxtDeserializer;
 
 public class HttpInputTest {

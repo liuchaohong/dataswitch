@@ -11,8 +11,6 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.commons.io.IOUtils;
-
 public class IOUtil {
 
 	public static List<String> readLines(BufferedReader reader ,int size) throws IOException {

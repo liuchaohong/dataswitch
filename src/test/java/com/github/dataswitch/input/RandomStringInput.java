@@ -2,7 +2,6 @@ package com.github.dataswitch.input;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import com.github.rapid.common.util.MapUtil;

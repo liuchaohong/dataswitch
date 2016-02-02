@@ -1,6 +1,6 @@
 package com.github.dataswitch.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.apache.commons.lang.StringUtils;
 import org.junit.Test;

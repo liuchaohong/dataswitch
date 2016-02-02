@@ -8,7 +8,6 @@ import javax.script.Bindings;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 
-import org.apache.commons.lang.StringUtils;
 import org.springframework.util.Assert;
 
 import com.github.dataswitch.output.ScriptOutput;

@@ -1,6 +1,5 @@
 package com.github.dataswitch.serializer;
 
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 

@@ -1,6 +1,6 @@
 package com.github.dataswitch.output;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 import java.util.Map;
@@ -12,7 +12,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.github.dataswitch.TestUtil;
 import com.github.dataswitch.input.JdbcInputTest;
-import com.github.dataswitch.output.JdbcOutput;
 import com.github.dataswitch.util.NamedParameterUtils;
 import com.github.dataswitch.util.ParsedSql;
 import com.github.rapid.common.util.MapUtil;

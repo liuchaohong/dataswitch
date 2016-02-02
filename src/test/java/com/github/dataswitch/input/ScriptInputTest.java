@@ -1,10 +1,8 @@
 package com.github.dataswitch.input;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import com.github.dataswitch.input.ScriptInput;
 
 public class ScriptInputTest {
 

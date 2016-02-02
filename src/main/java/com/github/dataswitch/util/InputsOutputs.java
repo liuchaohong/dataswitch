@@ -1,25 +1,16 @@
 package com.github.dataswitch.util;
 
-import java.io.File;
 import java.util.Arrays;
-import java.util.List;
 
-import org.apache.commons.lang.ArrayUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.github.dataswitch.input.FileInput;
 import com.github.dataswitch.input.Input;
 import com.github.dataswitch.input.MultiInput;
-import com.github.dataswitch.output.FileOutput;
 import com.github.dataswitch.output.Output;
-import com.github.dataswitch.output.ProxyOutput;
 import com.github.dataswitch.output.TeeOutput;
-import com.github.dataswitch.processor.DefaultProcessor;
 import com.github.dataswitch.processor.MultiProcessor;
 import com.github.dataswitch.processor.Processor;
-import com.github.dataswitch.serializer.ByteDeserializer;
-import com.github.dataswitch.serializer.ByteSerializer;
 
 /**
  * 输入输出类，一个输入可以配置多个输出

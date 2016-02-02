@@ -1,11 +1,8 @@
 package com.github.dataswitch.output;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 import com.github.dataswitch.TestUtil;
-import com.github.dataswitch.output.RedisOutput;
 
 public class RedisOutputTest {
 

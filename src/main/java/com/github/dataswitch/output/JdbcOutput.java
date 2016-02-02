@@ -13,9 +13,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-
-import com.github.dataswitch.util.ParsedSql;
-
 import org.springframework.jdbc.core.namedparam.SqlParameterSource;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.TransactionStatus;
@@ -24,6 +21,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import com.github.dataswitch.util.DataSourceProvider;
 import com.github.dataswitch.util.NamedParameterUtils;
+import com.github.dataswitch.util.ParsedSql;
 import com.github.rapid.common.beanutils.PropertyUtils;
 
 public class JdbcOutput extends DataSourceProvider implements Output {

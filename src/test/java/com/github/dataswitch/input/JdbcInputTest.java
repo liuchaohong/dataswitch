@@ -1,6 +1,6 @@
 package com.github.dataswitch.input;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 
@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.github.dataswitch.TestUtil;
-import com.github.dataswitch.input.JdbcInput;
 import com.mchange.v2.c3p0.DriverManagerDataSource;
 
 public class JdbcInputTest {

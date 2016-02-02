@@ -1,12 +1,10 @@
 package com.github.dataswitch.input;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
 import com.github.dataswitch.TestUtil;
-import com.github.dataswitch.input.FileInput;
-import com.github.dataswitch.input.MultiInput;
 
 public class MultiInputTest {
 

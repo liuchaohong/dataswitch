@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import java.io.ByteArrayInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.util.List;
 
 import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.junit.Test;

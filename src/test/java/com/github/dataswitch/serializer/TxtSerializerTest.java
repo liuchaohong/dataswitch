@@ -1,10 +1,9 @@
 package com.github.dataswitch.serializer;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.Date;
 import java.util.Map;
 
 import org.junit.Test;
